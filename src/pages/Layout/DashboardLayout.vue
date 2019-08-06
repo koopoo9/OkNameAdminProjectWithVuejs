@@ -14,11 +14,11 @@
       </sidebar-link>-->
       <sidebar-link to="/table">
         <md-icon>content_paste</md-icon>
-        <p>통계관리 첫번째</p>
+        <p>통계관리 1번째</p>
       </sidebar-link>
       <sidebar-link to="/table2">
         <md-icon>library_books</md-icon>
-        <p>통계관리 두번째</p>
+        <p>통계관리 2번째</p>
       </sidebar-link>
       <!--sidebar-link to="/icons">
         <md-icon>bubble_chart</md-icon>
