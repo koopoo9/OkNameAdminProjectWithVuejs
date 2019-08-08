@@ -32,6 +32,9 @@ import MaterialDashboard from "./material-dashboard";
 import Chartist from "chartist";
 import 'bootstrap-css-only/css/bootstrap.min.css'; 
 import 'mdbvue/build/css/mdb.css';
+import VeeValidator from 'vee-validate';
+
+
 // configure router
 const router = new VueRouter({
   routes, // short for routes: routes
@@ -45,7 +48,7 @@ Vue.use(MaterialDashboard);
 Vue.use(GlobalComponents);
 Vue.use(GlobalDirectives);
 Vue.use(Notifications);
-
+Vue.use(VeeValidator);
 /* eslint-disable no-new */
 new Vue({
   el: "#app",
